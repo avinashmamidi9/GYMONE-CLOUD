@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="appservice12__UAT" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Education\\Demo\ Project\\GYMONE\\GYMONE\\GYMONE\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Education\\Demo\ Project\\GYMONE\\GYMONE\\GYMONE\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Mystring-Web.config Connection String" description="" value="Data Source=sai-pc;Initial Catalog=GYMONEDBMVC1;User ID=sa;Password=Pass$123" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Education\\Demo\ Project\\GYMONE\\GYMONE\\GYMONE\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Mystring']/@connectionString" />
+  </parameter>
+</parameters>
